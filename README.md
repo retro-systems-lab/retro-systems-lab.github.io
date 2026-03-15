@@ -1,33 +1,26 @@
+<p align="center">
+  <a href="https://retro-systems-lab.github.io/">
+    <img src=".github/readme-logo.png" alt="Retro Systems Lab logo" width="320">
+  </a>
+</p>
+
 # Retro Systems Lab
 
-Retro Systems Lab is an Astro + Starlight site for documenting experiments with vintage software platforms, old mobile toolchains, and preserved SDK archives.
+Retro Systems Lab explores forgotten software platforms, vintage mobile toolchains, preserved SDKs, and the history around them.
 
-## Commands
+## Visit the site
 
-```bash
-npm install
-npm run dev
-npm run build
-npm run preview
-```
+Start here: [retro-systems-lab.github.io](https://retro-systems-lab.github.io/)
 
-## Content structure
+This repository is the source for the website, but the best way to experience the project is on the live site.
 
-```text
-src/content/docs/
-  hello-world.md
-  docs/
-  tools/
-  archives/
-  stories/
-```
+## What you will find there
 
-## Deployment
+- documentation for experiments and working setups
+- tools and emulator notes
+- archives of older SDKs and related materials
+- stories and historical context around retro software ecosystems
 
-GitHub Pages deployment is configured in `.github/workflows/deploy.yml`.
+## Maintainers
 
-The Astro config derives the Pages base path from the GitHub repository name during the GitHub Actions build, so you can publish this from a repo like `retro-systems-lab` without changing the local folder name.
-
-## Maintainer notes
-
-Maintainer-only documentation lives in `dev-docs/` and is intentionally kept outside `src/content/docs/` so it is not published on the website.
+Maintainer-only notes live in `dev-docs/` and are kept out of the published site.
