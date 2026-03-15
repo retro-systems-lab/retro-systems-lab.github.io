@@ -1,0 +1,42 @@
+---
+title: Retro Systems Lab
+description: Exploring forgotten software platforms and vintage computing systems.
+template: splash
+hero:
+  tagline: Field notes, toolchains, and archives for feature phones, retro software, and forgotten developer kits.
+  actions:
+    - text: Hello World
+      link: /hello-world/
+      icon: right-arrow
+    - text: J2ME Introduction
+      link: /docs/j2me-intro/
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Experiments
+
+- Running Java apps on Nokia phones
+- Rebuilding feature phone game workflows
+- Reverse engineering old mobile app packaging
+
+## Sections
+
+<CardGrid stagger>
+	<Card title="Documentation" icon="open-book">
+		Start with the [J2ME Introduction](/docs/j2me-intro/) and document each
+		reproducible setup.
+	</Card>
+	<Card title="Tools" icon="setting">
+		Track emulators, SDKs, and build helpers in [Tools](/tools/emulators/).
+	</Card>
+	<Card title="Archives" icon="document">
+		Preserve installers, manuals, and samples in
+		[Archives](/archives/nokia-sdks/).
+	</Card>
+	<Card title="Stories" icon="pencil">
+		Capture context and history in [Stories](/stories/java-phones-era/).
+	</Card>
+</CardGrid>
