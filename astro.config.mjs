@@ -23,6 +23,7 @@ export default defineConfig({
 		starlight({
 			title: 'Retro Systems Lab',
 			description: 'Exploring forgotten software platforms and vintage computing systems.',
+			favicon: '/favicon.png',
 			logo: {
 				src: './src/assets/retro-systems-lab-logo.png',
 				alt: 'Retro Systems Lab logo',
