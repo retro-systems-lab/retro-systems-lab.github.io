@@ -30,28 +30,22 @@ export default defineConfig({
 				replacesTitle: true,
 			},
 			sidebar: [
-				{
-					label: 'Start Here',
-					items: [
-						{ label: 'Hello World', slug: 'hello-world' },
-					],
-				},
-				{
-					label: 'Documentation',
-					items: [{ label: 'J2ME Introduction', slug: 'docs/j2me-intro' }],
-				},
+				// {
+				// 	label: 'Documentation',
+				// 	items: [{ label: 'J2ME Introduction', slug: 'docs/j2me-intro' }],
+				// },
 				{
 					label: 'Tools',
-					items: [{ label: 'Emulators', slug: 'tools/emulators' }],
+					items: [{ label: 'J2ME DevKit', slug: 'tools/j2me-devkit' }],
 				},
-				{
-					label: 'Archives',
-					items: [{ label: 'Nokia SDKs', slug: 'archives/nokia-sdks' }],
-				},
-				{
-					label: 'Stories',
-					items: [{ label: 'Java Phones Era', slug: 'stories/java-phones-era' }],
-				},
+				// {
+				// 	label: 'Archives',
+				// 	items: [{ label: 'Nokia SDKs', slug: 'archives/nokia-sdks' }],
+				// },
+				// {
+				// 	label: 'Stories',
+				// 	items: [{ label: 'Java Phones Era', slug: 'stories/java-phones-era' }],
+				// },
 			],
 		}),
 	],
